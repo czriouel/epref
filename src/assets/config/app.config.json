@@ -1,0 +1,9 @@
+{
+  "apiServerUrl": "http://slre7app95:8088/klesia-epref-rest-web/api/rest/epref/",
+  "token": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJLTEVTSUEgQVBJLUpXVCIsImlzcyI6IkVQUiIsImV4cCI6MTc2MjA5NzgzNiwiaWF0IjoxNjA0MzEzMjA2LCJpZFRyYW5zYWN0aW9uIjoiR0VPIn0.2R7G0kTH-2YWHlkWdVA6KesD9DcUOOpe6u5YsIc0aNaY3Lueycbca8XHk2ae8wvO3nLlpY-C6RScUIZt9-kjig",
+  "keycloakConfig" : {
+    "url": "http://localhost:8080/auth",
+    "realm": "klesia-epref-realm",
+    "clientId": "epref-front-app"
+  }
+}

@@ -1,0 +1,38 @@
+
+
+<div class="container-fluid">
+    <div *ngFor="let pph of listPersonnePhysique" class="row">
+  
+      <table class="table table-dark table-hover table-bordered">
+        <thead>
+          <tr class="table-warning">
+            <th scope="col">#</th>
+            <th scope="col">id</th>
+            <th scope="col">rstR</th>
+            <th scope="col">idUnRef</th>
+            <th scope="col">civC </th>
+            <th scope="col">civL </th>
+            <th scope="col">genC </th>
+            <th scope="col">genL </th>
+            <th scope="col">sitfamC </th>
+            <th scope="col">sitfam </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="table-primary">
+            <th scope="row">1</th>
+            <td>{{pph.idPersonne}}</td>
+            <td>{{pph.resultatRetourne}}</td>
+            <td>{{pph.signaletique.idUniqueReferentiel}}</td>
+            <td>{{pph.signaletique.civilite.code}}</td>
+            <td>{{pph.signaletique.civilite.libelle}}</td>
+            <td>{{pph.signaletique.genre.code}}</td>
+            <td>{{pph.signaletique.genre.libelle}}</td>
+            <td>{{pph.signaletique.situationfamiliale.code}}</td>
+            <td>{{pph.signaletique.situationfamiliale.libelle}}</td>
+          </tr>
+  </tbody>
+  </table>
+  
+    </div>
+  </div>
